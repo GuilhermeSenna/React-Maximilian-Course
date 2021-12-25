@@ -30,9 +30,15 @@ const App = () => {
     },
   ];
 
+  // Lifting the state up
+  const addExpenseHandler = expense => {
+    console.log('In App.js');
+    console.log(expense)
+  }
+
   return (
     <div>
-      <NewExpense />
+      <NewExpense onSaveNewExpense={addExpenseHandler} />
       <Expenses expenses={expenses} />
     </div>
   );
