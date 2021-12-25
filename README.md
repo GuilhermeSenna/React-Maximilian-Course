@@ -11,9 +11,7 @@
 
 ### Module 2 - React States and event handling:
 
-![](Lifting-state-up.png =100x20)
-
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png =250x250)
+![State Communication](Lifting-state-up.png)
 
 - Event listener
 - What is a react state
