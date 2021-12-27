@@ -6,7 +6,7 @@
 
 ### Module 3 - React Basics and components usage:
 - What is a frontend framework
-- differences between frameworks (Angular, React, Vue)
+- differences between frontend frameworks (Angular, React, Vue)
 - How React Works
 - Components usage and creation
 - Props
