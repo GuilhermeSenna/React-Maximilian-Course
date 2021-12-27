@@ -1,7 +1,10 @@
 # React-Maximilian-Course
 #### Course from Udemy - Maximiliam React course
 
-### Module 1 - React Basics and components usage:
+### Module 1 is introductory
+### Module 2 is a revision of Javascript (ES6)
+
+### Module 3 - React Basics and components usage:
 - What is a frontend framework
 - differences between frameworks (Angular, React, Vue)
 - How React Works
@@ -9,7 +12,7 @@
 - Props
 - Composition
 
-### Module 2 - React States and event handling:
+### Module 4 - React States and event handling:
 
 ![State Communication](Lifting-state-up.png)
 
