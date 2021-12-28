@@ -5,7 +5,7 @@ import ExpensesFilter from "./ExpensesFilter";
 import './Expenses.css';
 import ExpensesChart from "./ExpensesChart";
 
-const Expenses = (props) => {
+const Expenses = props => {
 
     // The state is set here but is changed in another component. 
     // If there is a change in the component, it is returned to modify the state here and the new value is sent to the component that can be modified
