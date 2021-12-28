@@ -23,3 +23,10 @@
 - Relationship between states (Two-way Binding)
 - Children to parent communication (Lifting the state up)
 - Types of components (controlled/uncontrolled / Stateless/Stateful)
+
+
+### Module 5 - Rendering dynamic lists and using conditionals:
+
+- Rendering list using map (already done before)
+- Use of conditionals
+- Applying dynamic styles (CSS)
