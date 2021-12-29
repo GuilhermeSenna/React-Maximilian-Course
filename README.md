@@ -33,7 +33,7 @@
 
 ### Project 1 - Expense list by year - Finished :heavy_check_mark:
 
-### Module :five: - Styling components:
+### Module :six: - Styling components:
 
 - Inline styles
 - Styled components
