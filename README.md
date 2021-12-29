@@ -32,3 +32,9 @@
 - Applying dynamic styles (CSS)
 
 ### Project 1 - Expense list by year - Finished :heavy_check_mark:
+
+### Module :five: - Styling components:
+
+- Inline styles
+- Styled components
+- CSS Modules
