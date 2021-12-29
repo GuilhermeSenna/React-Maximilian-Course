@@ -38,3 +38,6 @@
 - Inline styles
 - Styled components
 - CSS Modules
+
+
+### Project 2 - Course goal (styling) - Finished :heavy_check_mark:
