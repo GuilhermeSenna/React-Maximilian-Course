@@ -41,3 +41,10 @@
 
 
 ### Project 2 - Course goal (styling) - Finished :heavy_check_mark:
+
+### Module :seven: - Debugging the react app:
+
+- Breakpoints
+- React DevTools
+
+### Project 3 - Course goal (debugging) - Finished :heavy_check_mark:
