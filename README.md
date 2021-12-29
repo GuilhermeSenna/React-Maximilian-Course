@@ -32,3 +32,12 @@
 - Applying dynamic styles (CSS)
 
 ### Project 1 - Expense list by year - Finished :heavy_check_mark:
+
+### Module :six: - Styling components:
+
+- Inline styles
+- Styled components
+- CSS Modules
+
+
+### Project 2 - Course goal (styling) - Finished :heavy_check_mark:
