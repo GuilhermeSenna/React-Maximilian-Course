@@ -1,15 +1,16 @@
 import UserForm from "./components/UserForm";
 import './App.css'
+import Card from "./components/Card";
 
 const App = () => {
   return (
     <div>
-      <div className="card-style">
+      <Card>
         <UserForm />
-      </div>
-      <div className="card-style">
+      </ Card>
+      <Card>
         <UserForm />
-      </div>
+      </ Card>
     </div>
   );
 }
