@@ -1,4 +1,5 @@
 import UserDesc from "./UserDesc";
+import './UserList.css'
 
 const UserList = props => {
 
@@ -7,9 +8,12 @@ const UserList = props => {
     }
 
     return (
-        <ul>
+        <ul className="user-list">
             {props.users.map(user => (
-                <UserDesc />
+                <UserDesc
+                    key={user.id}
+                    username={user.username}
+                    age={user.age} />
             ))};
         </ul>
     );

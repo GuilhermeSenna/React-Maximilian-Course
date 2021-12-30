@@ -4,7 +4,7 @@ import './Card.css'
 const Card = props => {
     const classes = 'card ' + props.className;
 
-    return <div className='card' style={{
+    return <div className={classes} style={{
         backgroundColor: props.color || ''
     }}> {props.children}</div >
 }
