@@ -3,8 +3,13 @@ import './App.css'
 
 const App = () => {
   return (
-    <div className="form-style">
-      <UserForm />
+    <div>
+      <div className="card-style">
+        <UserForm />
+      </div>
+      <div className="card-style">
+        <UserForm />
+      </div>
     </div>
   );
 }

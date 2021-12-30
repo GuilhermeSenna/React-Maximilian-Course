@@ -4,20 +4,35 @@
     gap: 1rem;
     margin-bottom: 1rem;
     text-align: left;
-  }
+}
 
-  .form-control label {
-    font-size: larger;
+.form-control label {
+    font-size: large;
     font-weight: bold;
     margin-bottom: 0.5rem;
     display: block;
-  }
-  
-  .form-control input {
+}
+
+.form-control input {
     font: inherit;
     padding: 0.5rem;
     border-radius: 6px;
     border: 1px solid #ccc;
-    width: 80%;
+    width: 95%;
     margin-bottom: 1rem;
+}
+
+.button-form{
+    text-align: right;
+}
+
+.button-form button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #40005d;
+    background-color: #40005d;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
   }
