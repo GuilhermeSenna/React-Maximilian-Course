@@ -14,21 +14,35 @@ const UserForm = props => {
         setAge(event.target.value);
     }
 
+    const isInputsEmpty = () => {
+        return username.length === 0 || age.length === 0
+    }
+
+    const isNumberLowerThanZero = () => {
+        return age <= 0
+    }
+
 
 
     const submitHandler = event => {
         event.preventDefault();
 
-        const formData = {
-            id: Math.random().toString(),
-            username: username,
-            age: +age
+        if (isInputsEmpty()) {
+            console.log('Preencha todos os campos')
+        } else if (isNumberLowerThanZero()) {
+            console.log('O número precisa ser maior que 0')
+        } else {
+            const formData = {
+                id: Math.random().toString(),
+                username: username,
+                age: +age
+            }
+
+            props.onSaveUser(formData);
+
+            setUsername('');
+            setAge('');
         }
-
-        props.onSaveUser(formData);
-
-        setUsername('');
-        setAge('');
     }
 
     return (
