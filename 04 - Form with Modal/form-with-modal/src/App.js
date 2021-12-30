@@ -1,7 +1,10 @@
+import UserForm from "./components/UserForm";
+import './App.css'
+
 const App = () => {
   return (
-    <div>
-      <p>teste</p>
+    <div className="form-style">
+      <UserForm />
     </div>
   );
 }
