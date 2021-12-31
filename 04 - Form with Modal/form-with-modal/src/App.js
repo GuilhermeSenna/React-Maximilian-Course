@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import UserForm from "./components/UserForm";
-import './App.css'
-import Card from "./components/Card";
-import UserList from './components/UserList';
+import UserForm from "./components/Users/UserForm";
+import './App.module.css'
+import Card from "./components/UI/Card";
+import UserList from './components/Users/UserList';
 
 const App = () => {
 
@@ -24,6 +24,6 @@ const App = () => {
       </ Card>
     </div>
   );
-}
+};
 
 export default App;

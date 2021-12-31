@@ -1,14 +1,14 @@
-import Card from "./Card";
-import './UserDesc.css'
+import Card from "../UI/Card";
+import classes from './UserDesc.module.css'
 
 const UserDesc = props => {
     return (
         <li>
-            <Card className="user">
+            <Card className={classes.user}>
                 <h2>{`${props.username} (${props.age} years old)`}</h2>
             </Card>
         </li>
-    )
-}
+    );
+};
 
 export default UserDesc;

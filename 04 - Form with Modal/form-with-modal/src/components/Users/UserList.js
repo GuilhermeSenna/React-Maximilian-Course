@@ -1,5 +1,5 @@
 import UserDesc from "./UserDesc";
-import './UserList.css'
+import classes from './UserList.module.css'
 
 const UserList = props => {
 
@@ -8,15 +8,15 @@ const UserList = props => {
     }
 
     return (
-        <ul className="user-list">
+        <ul className={classes["user-list"]}>
             {props.users.map(user => (
                 <UserDesc
                     key={user.id}
                     username={user.username}
                     age={user.age} />
-            ))};
+            ))}
         </ul>
     );
-}
+};
 
 export default UserList;
