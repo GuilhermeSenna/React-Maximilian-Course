@@ -16,7 +16,7 @@ const App = () => {
 
   return (
     <div>
-      <Card>
+      <Card >
         <UserForm onSaveUser={addUserHandler} />
       </ Card>
       <Card>
