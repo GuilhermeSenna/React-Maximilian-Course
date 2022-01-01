@@ -51,3 +51,8 @@
 ---
 ### Project 3 - Course goal (debugging) - Finished :heavy_check_mark:
 ---
+### Module :eight: - Practice with previous content:
+- Simple app with form validation and modal (for showing validation errors)
+---
+### Project 4 - Form with modal - Finished :heavy_check_mark:
+---
