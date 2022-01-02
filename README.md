@@ -59,5 +59,5 @@
 ### Module :nine: - React Tools - Fragments, Portals & Refs :
 - React Fragment (Prevents DIV soup)
 - Portal (Render child components outside the DOM Hierarchy)
-- Refs (Direct Access to the components properties)
+- Refs (Direct Access to the components properties) - it turns into uncontrolled components
 ---
