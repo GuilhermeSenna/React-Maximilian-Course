@@ -74,3 +74,5 @@
 - useReducer (separating the state management from the rendering logic of the component)
 - useContext (Global state)
 ---
+### Project 6 - Login page (React Hooks) - Finished :heavy_check_mark:
+---
