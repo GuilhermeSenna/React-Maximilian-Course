@@ -66,6 +66,9 @@
 ### Module :one::zero: - Advanced side effects, Reducer, Context API :
 ![useReducer example](useReducer.png)
 
+![useContext example](useContext.png)
+
 - useEffect (Change components after rendering them)
 - useReducer (separating the state management from the rendering logic of the component)
+- useContext (Global state)
 ---
