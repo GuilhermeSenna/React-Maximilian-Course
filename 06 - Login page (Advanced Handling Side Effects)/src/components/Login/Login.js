@@ -54,6 +54,7 @@ const Login = (props) => {
     isValid: null,
   });
 
+  // This is used to the trigger useEffect only when the validity of this inputs is changed
   const { isValid: emailIsValid } = emailState;
   const { isValid: passwordIsValid } = passwordState;
 
