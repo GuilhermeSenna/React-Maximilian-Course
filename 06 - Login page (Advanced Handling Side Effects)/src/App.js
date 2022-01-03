@@ -42,7 +42,7 @@ function App() {
           isLoggedIn: isLoggedIn,
           onLogout: logoutHandler
         }}>
-        <MainHeader />
+        <MainHeader  />
         <main>
           {!isLoggedIn && <Login onLogin={loginHandler} />}
           {isLoggedIn && <Home onLogout={logoutHandler} />}
