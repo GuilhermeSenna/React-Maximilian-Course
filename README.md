@@ -63,10 +63,12 @@
 ---
 ### Project 5 - Form with modal (With extra concepts) - Finished :heavy_check_mark:
 ---
-### Module :one::zero: - Advanced side effects, Reducer, Context API :
+### Module :one::zero: - React Hooks (useEffect, useReducer, useContext) :
 ![useReducer example](useReducer.png)
 
 ![useContext example](useContext.png)
+
+![Rules of react hooks](Hooks-rules.png)
 
 - useEffect (Change components after rendering them)
 - useReducer (separating the state management from the rendering logic of the component)
