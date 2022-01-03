@@ -63,7 +63,7 @@
 ---
 ### Project 5 - Form with modal (With extra concepts) - Finished :heavy_check_mark:
 ---
-### Module :ten: - Advanced side effects, Reducer, Context API :
+### Module :one::zero: - Advanced side effects, Reducer, Context API :
 ![useReducer example](useReducer.png)
 
 - useEffect (Change components after rendering them)
