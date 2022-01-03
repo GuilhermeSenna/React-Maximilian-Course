@@ -61,3 +61,11 @@
 - Portal (Render child components outside the DOM Hierarchy)
 - Refs (Direct Access to the components properties) - it turns into uncontrolled components
 ---
+### Project 5 - Form with modal (With extra concepts) - Finished :heavy_check_mark:
+---
+### Module :ten: - Advanced side effects, Reducer, Context API :
+![useReducer example](useReducer.png)
+
+- useEffect (Change components after rendering them)
+- useReducer (separating the state management from the rendering logic of the component)
+---
