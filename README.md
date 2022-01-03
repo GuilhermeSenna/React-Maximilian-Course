@@ -63,7 +63,7 @@
 ---
 ### Project 5 - Form with modal (With extra concepts) - Finished :heavy_check_mark:
 ---
-### Module :one::zero: - React Hooks (useEffect, useReducer, useContext, useRef) :
+### Module :one::zero: - React Hooks (useEffect, useReducer, useContext, useRef w/ Imperative Handler) :
 ![useReducer example](useReducer.png)
 
 ![useContext example](useContext.png)
