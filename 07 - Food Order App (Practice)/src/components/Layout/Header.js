@@ -4,12 +4,12 @@ import mealsImage from '../../assets/meals.jpg'
 import HeaderCartButton from './HeaderCartButton';
 
 
-const Header = () => {
+const Header = props => {
     return (
         <>
             <header className={styles.header}>
                 <h1>Guilherme's Meals</h1>
-                <HeaderCartButton />
+                <HeaderCartButton onClick={props.onShowCart} />
             </header>
 
             <div className={styles['main-image']}>
