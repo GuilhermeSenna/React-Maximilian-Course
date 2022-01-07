@@ -1,5 +1,10 @@
 # React-Maximilian-Course
-#### Course from Udemy - Maximiliam React course
+
+### Course from Udemy - Maximiliam React course
+
+#### The Readme has been constantly updated by me, with information both from the course and from other video classes/internet sources (including the ReactJS documentation itself).
+
+#### The content serves both portfolio and help for anyone studying React.
 
 ---
 ### Module :one: is introductory
@@ -82,4 +87,9 @@ React hooks examples_2: [Example 2](https://enlear.academy/types-of-react-hooks-
 - useContext (Global state)
 ---
 ### Project 6 - Login page (React Hooks) - Finished :heavy_check_mark:
+---
+Module :one::one: - Practice with previous content (especially react tools and hooks):
+application simulating a web commerce with adding items to a cart and changing quantities
+---
+### Project 7 - Food Oder App - Finished :heavy_check_mark:
 ---
