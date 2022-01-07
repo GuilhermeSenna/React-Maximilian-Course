@@ -83,3 +83,8 @@ React hooks examples_2: [Example 2](https://enlear.academy/types-of-react-hooks-
 ---
 ### Project 6 - Login page (React Hooks) - Finished :heavy_check_mark:
 ---
+Module :one::one: - Practice with previous content (especially react tools and hooks):
+application simulating a web commerce with adding items to a cart and changing quantities
+---
+### Project 7 - Food Oder App - Finished :heavy_check_mark:
+---
