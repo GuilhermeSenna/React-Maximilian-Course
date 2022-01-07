@@ -68,8 +68,8 @@
 "With the new addition of hooks( along with React 16.8), functional components could maintain states and lifecycle features without using classes. Simply hooks are features that allow you to “hook into” React state and lifecycle features from function components."
 
 React hooks examples_2: [Example 1](https://blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems-af4caf699e70/).
-React hooks examples_2: [Example 2](https://enlear.academy/types-of-react-hooks-best-practices-45c275b55b1f).
 
+React hooks examples_2: [Example 2](https://enlear.academy/types-of-react-hooks-best-practices-45c275b55b1f).
 
 ![useReducer example](useReducer.png)
 
