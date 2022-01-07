@@ -1,6 +1,6 @@
 # React-Maximilian-Course
 
-###Course from Udemy - Maximiliam React course
+### Course from Udemy - Maximiliam React course
 
 #### The Readme has been constantly updated by me, with information both from the course and from other video classes/internet sources (including the ReactJS documentation itself).
 
