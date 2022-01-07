@@ -5,6 +5,8 @@ import Cart from "./components/Cart/Cart";
 import CartProvider from './store/CartProvider';
 
 function App() {
+
+  // Cart modal handler
   const [cartIsShown, setCartIsShown] = useState(false)
 
   const showCartHandler = () => {
@@ -16,8 +18,13 @@ function App() {
   }
 
   return (
+    // React Context Usage
+    // Used to show current cart contents
+    // More informations in CartProvider.js
     <CartProvider>
       {cartIsShown && <Cart onHideCart={hideCartHandler} />}
+
+      {/* Header: Navbar w/ title, cart icon and image below */}
       <Header onShowCart={showCartHandler} />
       <main>
         <Meals />
