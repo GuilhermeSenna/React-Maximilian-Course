@@ -2,6 +2,7 @@ import styles from './AvailableMeals.module.css'
 import MealItem from './MealItem/MealItem';
 import Card from '../UI/Card';
 
+// List of meals
 const DUMMY_MEALS = [
     {
         id: 'm1',
@@ -30,6 +31,8 @@ const DUMMY_MEALS = [
 ];
 
 const AvailableMeals = () => {
+    // Map of items
+    // mealsList is a list of MealItem with meals item's information inside
     const mealsList = DUMMY_MEALS.map(meal => <MealItem
         id={meal.id}
         key={meal.id}

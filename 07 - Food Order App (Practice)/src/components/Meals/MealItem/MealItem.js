@@ -7,8 +7,11 @@ const MealItem = props => {
     const cartCtx = useContext(CartContext);
 
     const meal = props.meal;
+
+    // Two digit number
     const price = `R$${meal.price.toFixed(2)}`;
 
+    // Invoked in MetalItemForm.js
     const addToCartHandler = amount => {
         cartCtx.addItem({
             id: props.id,
