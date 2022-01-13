@@ -93,3 +93,16 @@ application simulating a web commerce with adding items to a cart and changing q
 ---
 ### Project 7 - Food Oder App - Finished :heavy_check_mark:
 ---
+Module :one::two: - React behind the scenes + optimization techniques:
+
+### components to the real DOM
+
+![Components to RealDOM](imgs/DOM1.png)
+
+### Changes in React that affects the DOM
+
+![What changes the ReactDOM](imgs/DOM2.png)
+
+### Re-Evaluating components && Re-rendering the DOM
+
+![Rules of react hooks](imgs/DOM3.png)
