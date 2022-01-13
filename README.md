@@ -76,10 +76,13 @@ React hooks examples_1: [Example 1](https://blog.logrocket.com/react-hooks-cheat
 
 React hooks examples_2: [Example 2](https://enlear.academy/types-of-react-hooks-best-practices-45c275b55b1f).
 
+#### useReducer: 
 ![useReducer example](imgs/useReducer.png)
 
+#### useContext:
 ![useContext example](imgs/useContext.png)
 
+#### Rules of React hooks:
 ![Rules of react hooks](imgs/Hooks-rules.png)
 
 - useEffect (Change components after rendering them)
@@ -93,16 +96,16 @@ application simulating a web commerce with adding items to a cart and changing q
 ---
 ### Project 7 - Food Oder App - Finished :heavy_check_mark:
 ---
-Module :one::two: - React behind the scenes + optimization techniques:
+### Module :one::two: - React behind the scenes + optimization techniques:
 
-### components to the real DOM
+#### components to the real DOM:
 
 ![Components to RealDOM](imgs/DOM1.png)
 
-### Changes in React that affects the DOM
+#### Changes in React that affects the DOM:
 
 ![What changes the ReactDOM](imgs/DOM2.png)
 
-### Re-Evaluating components && Re-rendering the DOM
+#### Re-Evaluating components && Re-rendering the DOM:
 
 ![Rules of react hooks](imgs/DOM3.png)
