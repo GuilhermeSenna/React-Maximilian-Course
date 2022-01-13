@@ -112,7 +112,7 @@ application simulating a web commerce with adding items to a cart and changing q
 
 ---
 
-**When there is a change to a component (like props or state change) all of its child components are re-evaluated along with it. In a large application with a component with many children, this can be a huge computational cost.**
+**When there is a change to a component (like props) all of its child components are re-evaluated along with it. In a large application with a component with many children, this can be a huge computational cost.**
 
 **Possible solutions:**
 
