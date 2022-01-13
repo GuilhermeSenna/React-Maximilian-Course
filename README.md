@@ -21,7 +21,7 @@
 ---
 ### Module :four: - React States and event handling:
 
-![State Communication](Lifting-state-up.png)
+![State Communication](imgs/Lifting-state-up.png)
 
 - Event listener
 - What is a react state
@@ -76,11 +76,11 @@ React hooks examples_1: [Example 1](https://blog.logrocket.com/react-hooks-cheat
 
 React hooks examples_2: [Example 2](https://enlear.academy/types-of-react-hooks-best-practices-45c275b55b1f).
 
-![useReducer example](useReducer.png)
+![useReducer example](imgs/useReducer.png)
 
-![useContext example](useContext.png)
+![useContext example](imgs/useContext.png)
 
-![Rules of react hooks](Hooks-rules.png)
+![Rules of react hooks](imgs/Hooks-rules.png)
 
 - useEffect (Change components after rendering them)
 - useReducer (separating the state management from the rendering logic of the component)
