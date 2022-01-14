@@ -134,5 +134,8 @@ Example: [Example](https://medium.com/reactbrasil/react-usememo-na-prática-6921
 
 **useCallback has the same principle as useMemo, the difference is that it is used when a callback is called.**
 
-
-
+---
+### Project 8 - memo and useCallback pratice - Finished :heavy_check_mark:
+---
+### Project 9 - useMemo pratice - Finished :heavy_check_mark:
+---
