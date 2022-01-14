@@ -138,8 +138,6 @@ setValue(prevValue => !prevValue)
 
 ## Possible solutions:
 
-#### React memorizes the result of the component. Before React renders the component again, it validates that the props (primitives) are the same, if so, it skips rendering.
-
 ### React.memo | useMemo (Memoization):
 
 #### It consists of storing the return value of a function from the input values (Parameters). In this way, a component that receives a props from another, will only re-evaluate if different values from the previous ones (which are saved by useMemo) are passed. These new values will then be saved for later comparison. ###
