@@ -10,6 +10,8 @@
 ### Module :one: is introductory
 ---
 ### Module :two: is a revision of Javascript (ES6)
+
+Destructuring assignment: [Doc](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment).
 ---
 ### Module :three: - React Basics and components usage:
 - What is a frontend framework
