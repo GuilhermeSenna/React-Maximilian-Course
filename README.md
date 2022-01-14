@@ -89,7 +89,9 @@ React hooks examples_2: [Example 2](https://enlear.academy/types-of-react-hooks-
 - useReducer (separating the state management from the rendering logic of the component)
 - useContext (Global state)
 ---
+
 ### Project 6 - Login page (React Hooks) - Finished :heavy_check_mark:
+
 ---
 Module :one::one: - Practice with previous content (especially react tools and hooks):
 application simulating a web commerce with adding items to a cart and changing quantities
@@ -98,17 +100,23 @@ application simulating a web commerce with adding items to a cart and changing q
 ---
 ### Module :one::two: - React behind the scenes + optimization techniques:
 
-#### components to the real DOM:
+---
+
+### components to the real DOM:
 
 ![Components to RealDOM](imgs/DOM1.png)
 
-#### Changes in React that affects the DOM:
+### Changes in React that affects the DOM:
 
 ![What changes the ReactDOM](imgs/DOM2.png)
 
-#### Re-Evaluating components && Re-rendering the DOM:
+### Re-Evaluating components && Re-rendering the DOM:
 
-![Rules of react hooks](imgs/DOM3.png)
+![Re-Evaluating components Versus Re-rendering the DOM](imgs/DOM3.png)
+
+### About state:
+
+![More about ReactState](imgs/State1.PNG)
 
 ---
 
@@ -118,8 +126,13 @@ application simulating a web commerce with adding items to a cart and changing q
 
 ### useMemo:
 
+**It consists of storing the return value of a function from the input values (Parameters). In this way, a component that receives a props from another, will only re-evaluate if different values from the previous ones (which are saved by useMemo) are passed. These new values will then be saved for later comparison.**
 
+Example: [Example](https://medium.com/reactbrasil/react-usememo-na-prática-692110771c01).
 
+### useCallback:
+
+**useCallback has the same principle as useMemo, the difference is that it is used when a callback is called.**
 
 
 
