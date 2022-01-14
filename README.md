@@ -129,19 +129,23 @@ setValue(prevValue => !prevValue)
 
 ---
 
-**When there is a change to a component (like props or state change) all of its child components are re-evaluated along with it. In a large application with a component with many children, this can be a huge computational cost.**
+## When there is a change to a component (like props or state change) all of its child components are re-evaluated along with it. In a large application with a component with many children, this can be a huge computational cost.
 
-**Possible solutions:**
+## Possible solutions:
 
-### useMemo:
+#### React memorizes the result of the component. Before React renders the component again, it validates that the props (primitives) are the same, if so, it skips rendering.
 
-**It consists of storing the return value of a function from the input values (Parameters). In this way, a component that receives a props from another, will only re-evaluate if different values from the previous ones (which are saved by useMemo) are passed. These new values will then be saved for later comparison.**
+### React.memo | useMemo (Memoization):
+
+#### It consists of storing the return value of a function from the input values (Parameters). In this way, a component that receives a props from another, will only re-evaluate if different values from the previous ones (which are saved by useMemo) are passed. These new values will then be saved for later comparison. ###
 
 Example: [Example](https://medium.com/reactbrasil/react-usememo-na-prática-692110771c01).
 
+*React.memo() is a higher-order component that involves components that only render when their props are changed. useMemo is a react hook that wraps functions to ensure they are only rendered when the dependency array changes.*
+
 ### useCallback:
 
-**useCallback has the same principle as useMemo, the difference is that it is used when a callback is called.**
+### useCallback has the same principle as useMemo, the difference is that it is used when a callback is called. 
 
 ---
 ### Project 8 - memo and useCallback pratice - Finished :heavy_check_mark:
