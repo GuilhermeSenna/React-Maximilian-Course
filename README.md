@@ -7,16 +7,22 @@
 #### The content serves both portfolio and help for anyone studying React.
 
 ---
+
+#### Disclaimer:
+
+*Some images used are the property of the author of the course, the initial source code was also obtained from him, with modifications made by me (comments and code changes).*
+
+---
 ### Module :one: is introductory
 ---
-### Module :two: is a revision of Javascript (ES6)
+### Module :two: is a revision of Javascript (ES6):
 
-Destructuring assignment: [Doc](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment).
+Destructuring assignment: [Doc](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 
 ---
 ### Module :three: - React Basics and components usage:
 - What is a frontend framework
-- differences between frontend frameworks (Angular, React, Vue)
+- Differences between frontend frameworks (Angular, React, Vue)
 - How React Works
 - Components usage and creation
 - Props
@@ -75,21 +81,22 @@ Destructuring assignment: [Doc](https://developer.mozilla.org/pt-BR/docs/Web/Jav
 
 "With the new addition of hooks( along with React 16.8), functional components could maintain states and lifecycle features without using classes. Simply hooks are features that allow you to “hook into” React state and lifecycle features from function components."
 
-React hooks examples_1: [Example 1](https://blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems-af4caf699e70/).
+- React hooks examples_1: [Example 1](https://blog.logrocket.com/react-hooks-cheat-sheet-unlock-solutions-to-common-problems-af4caf699e70/)
+- React hooks examples_2: [Example 2](https://enlear.academy/types-of-react-hooks-best-practices-45c275b55b1f)
 
-React hooks examples_2: [Example 2](https://enlear.academy/types-of-react-hooks-best-practices-45c275b55b1f).
+---
 
-#### useReducer: 
+### useReducer: 
 ![useReducer example](imgs/useReducer.png)
 
-#### useContext:
+### useContext:
 ![useContext example](imgs/useContext.png)
 
-#### Rules of React hooks:
+### Rules of React hooks:
 ![Rules of react hooks](imgs/Hooks-rules.png)
 
 - useEffect (Change components after rendering them)
-- useReducer (separating the state management from the rendering logic of the component)
+- useReducer (Separating the state management from the rendering logic of the component)
 - useContext (Global state)
 ---
 
@@ -134,7 +141,7 @@ setValue(prevValue => !prevValue)
 
 ---
 
-## When there is a change to a component (like props or state change) all of its child components are re-evaluated along with it. In a large application with a component with many children, this can be a huge computational cost.
+### When there is a change to a component (like props or state change) all of its child components are re-evaluated along with it. In a large application with a component with many children, this can be a huge computational cost.
 
 ## Possible solutions:
 
@@ -142,16 +149,34 @@ setValue(prevValue => !prevValue)
 
 #### It consists of storing the return value of a function from the input values (Parameters). In this way, a component that receives a props from another, will only re-evaluate if different values from the previous ones (which are saved by useMemo) are passed. These new values will then be saved for later comparison. ###
 
-Example: [Example](https://medium.com/reactbrasil/react-usememo-na-prática-692110771c01).
+- Example: [Example](https://medium.com/reactbrasil/react-usememo-na-prática-692110771c01)
 
 *React.memo() is a higher-order component that involves components that only render when their props are changed. useMemo is a react hook that wraps functions to ensure they are only rendered when the dependency array changes.*
 
 ### useCallback:
 
-### useCallback has the same principle as useMemo, the difference is that it is used when a callback is called. 
+#### useCallback has the same principle as useMemo, the difference is that it is used when a callback is called. 
 
 ---
 ### Project 8 - memo and useCallback pratice - Finished :heavy_check_mark:
 ---
 ### Project 9 - useMemo pratice - Finished :heavy_check_mark:
+---
+
+### Module :one::three: - Class-based components:
+
+#### When to use?
+
+- Preference for using classes
+- Old projects using it
+- Error boundaries
+
+### lifecycle in Class Based and alternatives with useEffect in Functional Based:
+
+![Class based vs Functional Based Lifecycle](imgs/Sideeffects.PNG)
+
+---
+
+### Project 10 - Class-based components - Finished :heavy_check_mark:
+
 ---
