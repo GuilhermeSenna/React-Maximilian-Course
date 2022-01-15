@@ -162,3 +162,21 @@ setValue(prevValue => !prevValue)
 ---
 ### Project 9 - useMemo pratice - Finished :heavy_check_mark:
 ---
+
+### Module :one::three: - Class-based components:
+
+#### When to use?
+
+- Preference for using classes
+- Old projects using it
+- Error boundaries
+
+### lifecycle in Class Based and alternatives with useEffect in Functional Based:
+
+![Class based vs Functional Based Lifecycle](imgs/Sideeffects.PNG)
+
+---
+
+### Project 10 - Class-based components - Finished :heavy_check_mark:
+
+---
