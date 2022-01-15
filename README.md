@@ -7,6 +7,12 @@
 #### The content serves both portfolio and help for anyone studying React.
 
 ---
+
+#### Disclaimer:
+
+*Some images used are the property of the author of the course, the initial source code was also obtained from him, with modifications made by me (comments and code changes).*
+
+---
 ### Module :one: is introductory
 ---
 ### Module :two: is a revision of Javascript (ES6):
