@@ -3,6 +3,11 @@ import classes from './User.module.css';
 
 // Changed to class
 class User extends Component {
+
+  componentWillUnmount() {
+    console.log('User will unmount!')
+  }
+
   render() {
     // Added the this statement
     return <li className={classes.user}>{this.props.name}</li>;
