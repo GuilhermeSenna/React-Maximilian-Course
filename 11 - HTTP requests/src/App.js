@@ -13,7 +13,7 @@ function App() {
     setIsLoading(true);
     setError(null);
     try {
-      const response = await fetch('https://swapi.dev/api/films/');
+      const response = await fetch('https://react-http-3118a-default-rtdb.firebaseio.com/movies.json');
 
       // If has an error runs catch on response
       if (!response.ok) {
@@ -22,29 +22,53 @@ function App() {
 
       const data = await response.json();
 
+      const loadedMoveis = [];
+
+      for (const key in data) {
+        loadedMoveis.push({
+          id: key,
+          title: data[key].title,
+          openingText: data[key].openingText,
+          releaseDate: data[key].releaseDate,
+        });
+      }
+
       // map the array of objects (data.result) catching the desired informations
       // returns a array of objects.
-      const transformedMovies = data.results.map((movieData) => {
-        return {
-          id: movieData.episode_id,
-          title: movieData.title,
-          openingText: movieData.opening_crawl,
-          releaseDate: movieData.release_date,
-        };
-      });
-      setMovies(transformedMovies);
+      // const transformedMovies = data.map((movieData) => {
+      //   return {
+      //     id: movieData.episode_id,
+      //     title: movieData.title,
+      //     openingText: movieData.opening_crawl,
+      //     releaseDate: movieData.release_date,
+      //   };
+      // });
+      setMovies(loadedMoveis);
     } catch (error) {
       setError(error.message);
     }
     setIsLoading(false);
   }, []);
 
+  // Fetch data when page load and on changes in fetchMoviesHandler.
   useEffect(() => {
+    // Because of the useCallback, will only invoke the function based in a brand new change in the function
     fetchMoviesHandler();
   }, [fetchMoviesHandler]);
 
-  function addMovieHandler(movie) {
-    console.log(movie);
+  const addMovieHandler = async (movie) => {
+    const response = await fetch('https://react-http-3118a-default-rtdb.firebaseio.com/movies.json', {
+      method: 'POST',
+      body: JSON.stringify(movie),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    });
+
+    const data = await response.json();
+    console.log(data);
+
+    fetchMoviesHandler();
   }
 
   // Clean code
