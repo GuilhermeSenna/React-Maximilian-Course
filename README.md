@@ -180,3 +180,16 @@ setValue(prevValue => !prevValue)
 ### Project 10 - Class-based components - Finished :heavy_check_mark:
 
 ---
+
+### Module :one::four: - Sending HTTP Requests + optimization techniques:
+
+- GET & POST
+- Fetch()
+- swapi.dev
+- Firebase
+
+---
+
+### Project 11 - HTTP requests - Finished :heavy_check_mark:
+
+---
