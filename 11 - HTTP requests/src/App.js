@@ -14,12 +14,16 @@ function App() {
     setError(null);
     try {
       const response = await fetch('https://swapi.dev/api/films/');
+
+      // If has an error runs catch on response
       if (!response.ok) {
         throw new Error('Something went wrong!');
       }
 
       const data = await response.json();
 
+      // map the array of objects (data.result) catching the desired informations
+      // returns a array of objects.
       const transformedMovies = data.results.map((movieData) => {
         return {
           id: movieData.episode_id,
@@ -43,6 +47,9 @@ function App() {
     console.log(movie);
   }
 
+  // Clean code
+  // Extracting the paragraph to a variable, that will
+  // change the content based on the HTTP response
   let content = <p>Found no movies.</p>;
 
   if (movies.length > 0) {
