@@ -1,10 +1,9 @@
-import useFetch from '../../hooks/use-fetch';
 
 import Section from '../UI/Section';
 import TaskForm from './TaskForm';
+import useFetch from '../../hooks/use-fetch';
 
 const NewTask = (props) => {
-
   const { isLoading, error, sendRequest: sendTaskRequest } = useFetch();
 
   const createTask = (taskText, taskData) => {
@@ -12,7 +11,7 @@ const NewTask = (props) => {
     const createdTask = { id: generatedId, text: taskText };
 
     props.onAddTask(createdTask);
-  }
+  };
 
   const enterTaskHandler = async (taskText) => {
     sendTaskRequest(
@@ -22,11 +21,10 @@ const NewTask = (props) => {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ text: taskText }),
+        body: { text: taskText },
       },
       createTask.bind(null, taskText)
     );
-
   };
 
   return (
